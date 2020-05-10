@@ -8,7 +8,7 @@ const ProfileScreen = () => {
             <Text>ProfileScreen</Text>
             <Button
                 title="Click here"
-                onPress={() => alert('Button Clicked')}/>
+                onPress={() => alert('Button Worked')}/>
         </View>
     );
 };
