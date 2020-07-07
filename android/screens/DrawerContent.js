@@ -34,7 +34,7 @@ export function DrawerContent(props) {
                         <View style={{flexDirection:'row',marginTop: 15}}>
                             <Avatar.Image 
                                 source={{
-                                    uri: 'https://www.google.com/search?q=melih+özgör&client=opera&hs=Ntv&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjLl67JkKrpAhUulYsKHVrUDwAQ_AUoAXoECAsQAw&biw=1920&bih=939#imgrc=2vCP62hbs1iPGM'
+                                    uri: 'https://media-exp1.licdn.com/dms/image/C4D03AQFCmV3_mn4WzA/profile-displayphoto-shrink_200_200/0?e=1598486400&v=beta&t=eWCEsY5LOTVArXu8O0DYNL93Uzjn-FoPJhci-UeXsZ0'
                                 }}
                                 size={50}
                             />
@@ -51,7 +51,7 @@ export function DrawerContent(props) {
                             </View>
                             <View style={styles.section}>
                                 <Paragraph style={[styles.paragraph, styles.caption]}>100</Paragraph>
-                                <Caption style={styles.caption}>Number of Books Read</Caption>
+                                <Caption style={styles.caption}>Books Read</Caption>
                             </View>
                         </View>
                     </View>
