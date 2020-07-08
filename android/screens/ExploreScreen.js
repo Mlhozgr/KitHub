@@ -2,9 +2,6 @@ import React, { useState } from 'react';
 import {View,Text,Button,StyleSheet,TextInput,TouchableOpacity} from 'react-native';
 
 import Axios from 'axios';
-
-
-
 const ExploreScreen = () => {
     const [book,setBook] = useState("");
         const [result,setResult] = useState([]);
@@ -28,10 +25,10 @@ const ExploreScreen = () => {
     return (
         <View style={StyleSheet.contianer}>
             <TextInput
-            onChangeText={() => handleChange()}></TextInput>
+            onChangeText={event => handleChange(event)}></TextInput>
             <TouchableOpacity
                 title="Click here"
-                onPress={() => handleSubmit()}/>
+                onPress={event => handleSubmit(event)}/>
             {result.map(book =>(
                 <a target="_blank" href={book.volumeInfo.previewLink}>
                 <Image src={book.volumeInfo.imageLinks.thumbnail} alt={bookTitle}

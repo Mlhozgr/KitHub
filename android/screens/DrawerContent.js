@@ -47,7 +47,7 @@ export function DrawerContent(props) {
                         <View style={styles.row}>
                             <View style={styles.section}>
                                 <Paragraph style={[styles.paragraph, styles.caption]}>80</Paragraph>
-                                <Caption style={styles.caption}>Book In Lıbrary</Caption>
+                                <Caption style={styles.caption}>Book In Library</Caption>
                             </View>
                             <View style={styles.section}>
                                 <Paragraph style={[styles.paragraph, styles.caption]}>100</Paragraph>
